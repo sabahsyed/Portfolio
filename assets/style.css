@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+  }
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(computer-laptop-workplace-mac-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    background-color: transparent;
+    color: black;
+ }
+ nav .brand-logo{
+     color: yellow;
+ }
+li{
+    color:blue !important;
+ }
