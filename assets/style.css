@@ -8,12 +8,20 @@ body {
     background-size: cover;
 }
 nav {
-    background-color: transparent;
+    background-color: transparent !important;
     color: black;
  }
  nav .brand-logo{
-     color: yellow;
+     color: yellow !important; 
  }
-li{
-    color:blue !important;
+a{
+    color:white !important;
+ }
+ .bio{
+     color:white;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+     position: absolute;
+     left:20%;
+     bottom:30%;
+
  }

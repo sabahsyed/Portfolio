@@ -1,0 +1,53 @@
+html{
+    box-sizing: border-box;
+  }
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(vw-backv2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    padding:10px;
+    margin:none;
+    border:none;
+    background-color: transparent !important;
+    
+ }
+#container{
+    position: absolute;
+    left:250px;
+    bottom:100px;
+    border: 1px solid lightskyblue;
+    border-style:groove;
+    width: 900px;
+    height:500px;
+    background-color: white;
+}
+form{
+    position: absolute;
+    left:20%;
+    top:30%;
+    width:70%;
+    height:70%;
+    margin: auto;
+}
+#contactHeader{
+    color:#1cd5e6;
+    position: absolute;
+    left:20%;
+    top:10%;
+}
+nav .brand-logo{
+    color: yellow !important;
+}
+a{
+    color:white !important;
+}
+#submitBtn{
+    color: white;
+    background-color: #1cd5e6;
+}
+i{
+    color: #1cd5e6;
+}
