@@ -2,7 +2,7 @@ html{
     box-sizing: border-box;
   }
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Gill Sans";
     background-image: url(qUFOpw.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,5 +18,22 @@ nav .brand-logo{
     color: yellow !important;
 }
 a{
-    color:white !important;
+    color:blue !important;
+}
+.container{
+    left:40%;
+    top:60%;
+}
+h2{
+    color:black;
+    position: absolute;
+    top: 20%;
+    left:10%;
+}
+p{  
+    font-size:large;
+    color:black;
+    position: absolute;
+    top: 30%;
+    left:10%;
 }
