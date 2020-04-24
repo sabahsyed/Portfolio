@@ -6,6 +6,7 @@ body {
     background-image: url(../images/mountains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;   
 }
 nav {
     padding:10px;

@@ -6,6 +6,7 @@ body {
     background-image: url(./images/computer-laptop-workplace-mac-preview.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;   
 }
 nav {
     background-color: transparent !important;
@@ -17,11 +18,10 @@ nav {
 a{
     color:white !important;
  }
- .bio{
+.bio{
      color:white;
      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
      position: absolute;
-     left:20%;
-     bottom:30%;
-
+     left:10%;
+     bottom:20%;
  }
