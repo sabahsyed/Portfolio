@@ -3,7 +3,7 @@ html{
   }
 body {
     font-family: "Gill Sans";
-    background-image: url(qUFOpw.jpg);
+    background-image: url(../images/aboutMeImage.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,19 +21,39 @@ a{
     color:blue !important;
 }
 .container{
+    z-index: 1;
+    width:100%;
     left:40%;
     top:60%;
+    overflow:hidden;
 }
 h2{
+    font-family: cursive;
     color:black;
-    position: absolute;
+    position: relative;
     top: 20%;
     left:10%;
 }
 p{  
     font-size:large;
     color:black;
-    position: absolute;
+    position: relative;
     top: 30%;
     left:10%;
+}
+#aboutMe{
+    height:300px;
+    width:300px;
+    position: relative;
+    left:30%;
+   
+}
+h5{
+    position: relative;
+    font-size: 40px;
+    font-family: cursive;
+    left:10%;
+}
+img{
+    border-radius: 50%;
 }

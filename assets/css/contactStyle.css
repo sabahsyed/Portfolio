@@ -2,8 +2,8 @@ html{
     box-sizing: border-box;
   }
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url(vw-backv2.jpg);
+    font-family: 'Garamond';
+    background-image: url(../images/mountains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -33,10 +33,13 @@ form{
     margin: auto;
 }
 #contactHeader{
-    color:#1cd5e6;
+    color:#0f3ed3;
     position: absolute;
     left:20%;
     top:10%;
+}
+i{
+    color:#0f3ed3;
 }
 nav .brand-logo{
     color: yellow !important;
@@ -46,8 +49,5 @@ a{
 }
 #submitBtn{
     color: white;
-    background-color: #1cd5e6;
-}
-i{
-    color: #1cd5e6;
+    background-color:#0f3ed3;
 }
