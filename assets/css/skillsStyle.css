@@ -3,7 +3,7 @@ html{
     box-sizing: border-box;
   }
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Garamond';
     background-image: url(../images/vw-backv2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,4 +21,11 @@ nav .brand-logo{
 }
 a{
     color:white !important;
+}
+li{
+    font-size: larger;
+    color:white;
+}
+h3{
+    color:white;
 }
