@@ -3,7 +3,7 @@ html{
   }
 body {
     font-family: 'Garamond';
-    background-image: url(../images/mountains.jpg);
+    background-image: url(../images/bright-background-with-dots_1055-3132.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;   
@@ -13,8 +13,17 @@ nav {
     margin:none;
     border:none;
     background-color: transparent !important;
-    
+    color:black;
  }
  #logo{
     color: yellow !important;
+}
+h3 , p ,a {
+    color:black;
+}
+p ,a{
+    font-size: large;
+}
+a{
+    color:black !important;
 }

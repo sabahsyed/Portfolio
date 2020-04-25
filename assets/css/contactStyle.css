@@ -18,7 +18,7 @@ nav {
 #container{
     position: absolute;
     left:250px;
-    bottom:100px;
+    bottom:10px;
     border: 1px solid lightskyblue;
     border-style:groove;
     width: 900px;
@@ -39,16 +39,28 @@ form{
     left:20%;
     top:10%;
 }
-i{
+i{  
+   
+    font-size: 30px;
     color:#0f3ed3;
 }
 #logo{
     color: yellow !important;
 }
-a{
+a{  
+   
+    display: inline-block;
     color:white !important;
 }
 #submitBtn{
     color: white;
     background-color:#0f3ed3;
+}
+
+.socialMedia{
+    position: relative;
+    left:30%;
+}
+h3 {
+    color:white;
 }
