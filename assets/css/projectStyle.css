@@ -1,0 +1,20 @@
+html{
+    box-sizing: border-box;
+  }
+body {
+    font-family: 'Garamond';
+    background-image: url(../images/mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+nav {
+    padding:10px;
+    margin:none;
+    border:none;
+    background-color: transparent !important;
+    
+ }
+ #logo{
+    color: yellow !important;
+}
